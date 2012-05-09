@@ -95,5 +95,9 @@ module Capybara::Poltergeist
     def trigger(event)
       command :trigger, event
     end
+
+    def path
+      command :path
+    end
   end
 end
